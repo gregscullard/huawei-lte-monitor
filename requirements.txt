@@ -1,0 +1,3 @@
+huawei-lte-api
+flask
+flask-cors
