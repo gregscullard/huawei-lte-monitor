@@ -1,4 +1,4 @@
-# Huawei LTE Monitor
+# Huawei LTE REST API
 
 This Python project creates an http API that enables communication with a Huawei LTE router.
 It is inspired from the [huawei-lte-examples](https://github.com/littlejo/huawei-lte-examples) project which uses the [huawei-lte-api](https://github.com/Salamek/huawei-lte-api) project.
@@ -13,20 +13,15 @@ It is inspired from the [huawei-lte-examples](https://github.com/littlejo/huawei
 ### Installation of dependencies
 
 ```sh
-git clone https://github.com/gregscullard/huawei-lte-monitor.git
+git clone https://github.com/gregscullard/huawei-lte-rest-api.git
 ```
 
 ```sh
-cd huawei-lte-monitor
-```
-
-```sh
-pip3 install -r requirements.txt
+cd huawei-lte-rest-api
 ```
 
 ### Launch
 
 ```sh
-python3 huawei_lte_monitor.py
+./run.sh
 ```
-
